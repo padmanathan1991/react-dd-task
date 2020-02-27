@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-dd-task/static/css/main.c0d7a2cd.chunk.css",
+    "main.js": "/react-dd-task/static/js/main.d4212f44.chunk.js",
+    "main.js.map": "/react-dd-task/static/js/main.d4212f44.chunk.js.map",
+    "runtime-main.js": "/react-dd-task/static/js/runtime-main.c784a13c.js",
+    "runtime-main.js.map": "/react-dd-task/static/js/runtime-main.c784a13c.js.map",
+    "static/css/2.1d3b8874.chunk.css": "/react-dd-task/static/css/2.1d3b8874.chunk.css",
+    "static/js/2.a2b28d3a.chunk.js": "/react-dd-task/static/js/2.a2b28d3a.chunk.js",
+    "static/js/2.a2b28d3a.chunk.js.map": "/react-dd-task/static/js/2.a2b28d3a.chunk.js.map",
+    "index.html": "/react-dd-task/index.html",
+    "precache-manifest.d25ba36e53baa868e2277dd2e3a12a55.js": "/react-dd-task/precache-manifest.d25ba36e53baa868e2277dd2e3a12a55.js",
+    "service-worker.js": "/react-dd-task/service-worker.js",
+    "static/css/2.1d3b8874.chunk.css.map": "/react-dd-task/static/css/2.1d3b8874.chunk.css.map",
+    "static/css/main.c0d7a2cd.chunk.css.map": "/react-dd-task/static/css/main.c0d7a2cd.chunk.css.map",
+    "static/js/2.a2b28d3a.chunk.js.LICENSE.txt": "/react-dd-task/static/js/2.a2b28d3a.chunk.js.LICENSE.txt",
+    "static/media/common.css": "/react-dd-task/static/media/Inter-SemiBold.fed9e139.eot",
+    "static/media/avatar.jpg": "/react-dd-task/static/media/avatar.57ee2ba4.jpg",
+    "static/media/semantic.min.css": "/react-dd-task/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/App.css": "/react-dd-task/static/media/heart.f2610513.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c784a13c.js",
+    "static/css/2.1d3b8874.chunk.css",
+    "static/js/2.a2b28d3a.chunk.js",
+    "static/css/main.c0d7a2cd.chunk.css",
+    "static/js/main.d4212f44.chunk.js"
+  ]
+}
