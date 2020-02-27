@@ -1,0 +1,148 @@
+.header{
+  padding: 12px;
+  background-color:#fff;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content ul{
+  display: flex;
+}
+
+.header-content ul li{
+  color:#3c3c4b;
+  font-weight: medium;
+  margin-right: 15px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.header-content ul li:hover{
+  text-decoration: underline;
+}
+
+.header-content ul li:last-child{
+  margin-right: 0;
+}
+
+.header-content figure{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.header .container{
+  padding: 0 30px;
+}
+
+.section-recipes{
+  height: calc(100vh - 116px);
+  overflow: auto;
+}
+
+.recipes-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4px;
+}
+
+.recipes-container h2{
+  padding-bottom: 20px;
+}
+
+.recipe-card figure{
+  width: 180px;
+  height: 280px;
+  overflow: hidden;
+} 
+
+.recipe-card figure img{
+  object-fit: cover;
+  object-position: top center;
+  transition: all .5s ease;
+  height: 100%;
+}
+
+.recipe-card:hover figure img{
+  transform: scale(1.025);
+}
+
+.recipe-card:hover h3{
+  text-decoration: underline;
+}
+
+.recipe-card{
+  max-width: 200px;
+  min-height: 415px;
+  padding: 10px;
+  margin: 0 15px 30px 15px;
+  cursor: pointer;
+}
+.recipe-card:hover{
+  box-shadow: 0 1px 2px 0 rgba(3, 22, 41, 0.11), 0 0 2px 0 rgba(3, 22, 41, 0.11), 0 6px 16px 0 rgba(3, 22, 41, 0.08);
+}
+
+.recipe-card h3{
+  padding: 12px 0;
+  font-weight: 400;
+}
+
+.time-and-cals{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.likes{
+  padding-left:20px;
+  position: relative;
+}
+
+.likes:before{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url('./images/svg/heart.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 0;
+  top:2px;
+}
+
+.section-filter .container{
+  padding:15px 40px 15px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-filter{
+border: 1px solid #e4e7eb;
+padding: 4px 11px;
+border-radius: 8px;
+}
+
+.dropdown-filter .text{
+  color:#3c3c4b !important;
+}
+
+.dropdown-filter.ui.dropdown .menu {
+  left: -88px;
+  min-width: 195px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .dropdown-filter.ui.dropdown .menu .item{
+  max-width: 170px;
+  width: 100%;
+} */
+
+
+
